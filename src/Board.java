@@ -71,7 +71,7 @@ public class Board {
         }
     }
 
-    //Got help from Darius Paulauskas for modeling this part
+    //Got help from Darius Paulauskas for modeling this part -- calculateNeighbours --
 
     public int calculateNeighbours(int xCo, int yCo)
     {
