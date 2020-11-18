@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +43,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +54,8 @@
       <workItem from="1604942812782" duration="1369000" />
       <workItem from="1605088143148" duration="13000" />
       <workItem from="1605088166851" duration="14000" />
-      <workItem from="1605460540408" duration="569000" />
+      <workItem from="1605460540408" duration="596000" />
+      <workItem from="1605688842581" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="MiniProject">
       <created>1604943195459</created>
@@ -84,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604943728747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MiniProject">
+      <created>1605461127844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605461127844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,10 +89,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="MiniProject" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1604943727930">
+    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1605461127126">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1604943727930" />
+    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1605461127126" />
     <state x="707" y="363" key="Github.ShareDialog" timestamp="1604942849494">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -107,9 +101,9 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="669" y="170" key="Github.UntrackedFilesDialog/0.0.1707.929@0.0.1707.929" timestamp="1604942859750" />
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1604943231762">
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1605461134077">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1604943231762" />
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1605461134077" />
   </component>
 </project>
