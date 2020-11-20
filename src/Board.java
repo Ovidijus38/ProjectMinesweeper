@@ -110,4 +110,40 @@ public class Board {
 
         return i;
     }
+    public void setNumberOfMines(int numberOfMines)
+    {
+        this.numberOfMines = numberOfMines;
+    }
+
+    public int getNumberOfMines()
+    {
+        return numberOfMines;
+    }
+
+    public Cell[][] getCells()
+    {
+        return cells;
+    }
+
+    public int getRows()
+    {
+        return rows;
+    }
+
+    public int getCols()
+    {
+        return cols;
+    }
+    //-----------------------------------------//
+
+    public void resetBoard()
+    {
+        for(int x = 0 ; x < cols ; x++)
+        {
+            for(int y = 0 ; y < rows ; y++)
+            {
+                cells[x][y].setContent("");
+            }
+        }
+    }
 }

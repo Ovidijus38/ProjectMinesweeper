@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Score.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,12 @@
       <workItem from="1605088143148" duration="13000" />
       <workItem from="1605088166851" duration="14000" />
       <workItem from="1605460540408" duration="596000" />
-      <workItem from="1605688842581" duration="729000" />
+      <workItem from="1605688842581" duration="775000" />
+      <workItem from="1605691634147" duration="6000" />
+      <workItem from="1605712567778" duration="343000" />
+      <workItem from="1605727881745" duration="171000" />
+      <workItem from="1605781523858" duration="37000" />
+      <workItem from="1605802045827" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="MiniProject">
       <created>1604943195459</created>
@@ -84,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605689471322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MiniProject">
+      <created>1605689586273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605689586273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,10 +110,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="MiniProject" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1605689470258">
+    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1605689585241">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1605689470258" />
+    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1605689585241" />
     <state x="707" y="363" key="Github.ShareDialog" timestamp="1604942849494">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -107,9 +122,9 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="669" y="170" key="Github.UntrackedFilesDialog/0.0.1707.929@0.0.1707.929" timestamp="1604942859750" />
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1605689478863">
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1605689589011">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1605689478863" />
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1605689589011" />
   </component>
 </project>
