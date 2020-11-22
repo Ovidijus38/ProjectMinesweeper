@@ -134,6 +134,7 @@ public class Board {
     {
         return cols;
     }
+
     //-----------------------------------------//
 
     public void resetBoard()
