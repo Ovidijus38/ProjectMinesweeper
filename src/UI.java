@@ -254,7 +254,6 @@ public class UI extends JFrame {
         return tile;
     }
 
-
     //---------------------------------------------------------------------//
     public void setTextColor(JButton b)
     {
