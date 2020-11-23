@@ -3,7 +3,7 @@ import java.awt.*;
 import javax.swing.border.Border;
 import javax.swing.border.EtchedBorder;
 
-//This UI was help from Darius Paulauskas for modeling and some code
+//This UI was help from Darius Paulauskas for modeling and some code ideas
 
 public class UI extends JFrame {
     // The buttons
