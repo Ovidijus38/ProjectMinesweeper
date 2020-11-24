@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="" />
+    <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Minesweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinesweeperFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinesweeperPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +51,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunManager">
+    <configuration name="Minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Minesweeper" />
+      <module name="ProjectMinesweeper" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Minesweeper" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +92,10 @@
       <workItem from="1606078504109" duration="244000" />
       <workItem from="1606113919222" duration="165000" />
       <workItem from="1606162746224" duration="403000" />
+      <workItem from="1606163195350" duration="1702000" />
+      <workItem from="1606201086196" duration="1909000" />
+      <workItem from="1606204291234" duration="260000" />
+      <workItem from="1606233367702" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="MiniProject">
       <created>1604943195459</created>
@@ -139,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606163135908</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="MiniProject">
+      <created>1606163220695</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606163220695</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,14 +185,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="MiniProject" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="356" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1606059277743">
+    <state x="356" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1606164355669">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="356" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1707.929@0.0.1707.929" timestamp="1606059277743" />
-    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606163135036">
+    <state x="356" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1707.929@0.0.1707.929" timestamp="1606164355669" />
+    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606163219793">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606163135036" />
+    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606163219793" />
     <state x="707" y="363" key="Github.ShareDialog" timestamp="1604942849494">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -166,13 +201,29 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="669" y="170" key="Github.UntrackedFilesDialog/0.0.1707.929@0.0.1707.929" timestamp="1604942859750" />
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1606204553130">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
+    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1606204553130">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
+    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1606204553130">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1606204553130">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
     <state x="355" y="110" key="SettingsEditor" timestamp="1606078729341">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="355" y="110" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1606078729341" />
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1606163139249">
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1606163256604">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1606163139249" />
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1606163256604" />
   </component>
 </project>
