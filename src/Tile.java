@@ -37,7 +37,6 @@ public class Tile extends JButton {
 
     }
 
-
     public void paintComponent (Graphics g) {
 
         super.paintComponent (g);
