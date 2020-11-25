@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minesweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinesweeperGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +54,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Minesweeper" />
@@ -89,7 +102,9 @@
       <workItem from="1606201086196" duration="1909000" />
       <workItem from="1606204291234" duration="260000" />
       <workItem from="1606233367702" duration="1322000" />
-      <workItem from="1606295327104" duration="43000" />
+      <workItem from="1606295327104" duration="1439000" />
+      <workItem from="1606322617602" duration="28000" />
+      <workItem from="1606329677887" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="MiniProject">
       <created>1604943195459</created>
@@ -175,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606234019802</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="MiniProject">
+      <created>1606295379130</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606295379130</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,10 +212,10 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="356" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1707.929@0.0.1707.929" timestamp="1606164355669" />
-    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606234016130">
+    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606295378290">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606234016130" />
+    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606295378290" />
     <state x="707" y="363" key="Github.ShareDialog" timestamp="1604942849494">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -202,22 +224,22 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="669" y="170" key="Github.UntrackedFilesDialog/0.0.1707.929@0.0.1707.929" timestamp="1604942859750" />
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1606204553130">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1606330122010">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
-    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1606204553130">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1606330122010" />
+    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1606330122010">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
-    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1606204553130">
+    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1606330122010" />
+    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1606330122010">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
-    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1606204553130">
+    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1606330122010" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1606330122010">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1606204553130" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1606330122010" />
     <state x="355" y="110" key="SettingsEditor" timestamp="1606078729341">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
