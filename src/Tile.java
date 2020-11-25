@@ -86,7 +86,7 @@ public class Tile extends JButton {
 
             case MinesweeperGame.UNEXPLORED:
 
-                setText ("?");
+                setText ("@");
                 setIcon (null);
                 setDisabledIcon (null);
                 break;

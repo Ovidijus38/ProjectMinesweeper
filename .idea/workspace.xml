@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Minesweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinesweeperFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinesweeperPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Score.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +88,8 @@
       <workItem from="1606163195350" duration="1702000" />
       <workItem from="1606201086196" duration="1909000" />
       <workItem from="1606204291234" duration="260000" />
-      <workItem from="1606233367702" duration="614000" />
+      <workItem from="1606233367702" duration="1322000" />
+      <workItem from="1606295327104" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="MiniProject">
       <created>1604943195459</created>
@@ -174,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606163220695</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="MiniProject">
+      <created>1606234019802</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606234019802</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,10 +190,10 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="356" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1707.929@0.0.1707.929" timestamp="1606164355669" />
-    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606163219793">
+    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606234016130">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606163219793" />
+    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606234016130" />
     <state x="707" y="363" key="Github.ShareDialog" timestamp="1604942849494">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -221,9 +222,9 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="355" y="110" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1606078729341" />
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1606163256604">
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1606234020492">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1606163256604" />
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1606234020492" />
   </component>
 </project>
