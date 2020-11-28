@@ -117,5 +117,173 @@ public class MinesweeperGame {
         return UNEXPLORED;
 
     }
+    /**
+     * Gets the time elapsed since the game started.
+     * Returns the time elapsed since the game started in seconds.
+     */
+    public float getGameTime () {
+
+        return (System.currentTimeMillis () - startTime) / 1000.0f;
+
+    }
+
+    /**
+     * Gets the time elapsed since the game started to when it ended.
+     * Returns the time elapsed since the game started to when it ended in seconds.
+     */
+    public float getFinalTime () {
+
+        return (stopTime - startTime) / 1000.0f;
+
+    }
+
+    /**
+     * Gets the file extension used to save games.
+     * Returns FILE_EXTENSION.
+     */
+    public static String getFileExtension () {
+
+        return FILE_EXTENSION;
+
+    }
+
+    /**
+     * Prints the game board to the console
+     */
+    public void print () {
+
+        for (int i = 0; i < gameGrid.length; i++) {
+
+            if (i != 0 && i % squareLength == 0) {
+
+                System.out.println ();
+
+            }
+
+            if (gameGrid[i] == MINE) {
+
+                System.out.print ('*');
+
+            } else {
+
+                System.out.print (gameGrid[i]);
+
+            }
+
+        }
+
+    }
+
+    /**
+     * Checks to see if the selected tile is a mine or not, alters gameState
+     * of tile to check
+     * Returns false if not a mine, returns true otherwise
+     */
+    public boolean exploreTile (int position) {
+
+        // Is the position given invalid?
+        if (position < 0 || position >= gameGrid.length) {
+
+            System.out.println ("Tile Invalid");
+            assert (false);
+
+        }
+
+        if (explored[position]) {
+
+            return false;
+
+        }
+
+        explored[position] = true;
+
+        if (gameGrid[position] != MINE) {
+
+            numberOfTilesExplored++;
+
+            if (numberOfMines + numberOfTilesExplored == gameGrid.length) {
+
+                gameState = GameState.WON;
+                stopTime = System.currentTimeMillis ();
+                revealAll ();
+
+            } else if (gameGrid[position] == 0) {
+
+                exploreAdjacent (position);
+
+            }
+
+            return false;
+
+        }
+
+        gameState = GameState.GAME_OVER;
+        stopTime = System.currentTimeMillis ();
+        revealAll ();
+        return true;
+
+    }
+
+    /**
+     * Toggles a tile to be flagged or unflagged.
+     * of tile to flagged
+     */
+    public void flagTile (int position) {
+
+        // Is the position given invalid?
+        if (position < 0 || position >= gameGrid.length) {
+
+            System.out.println ("Tile Invalid");
+            assert (false);
+
+        }
+
+        if (explored[position]) {
+
+            return;
+
+        }
+
+        for (int i = 0; i < flags.size (); i++) {
+
+            if (flags.get (i) == position) {
+
+                flags.remove (i);
+                return;
+
+            }
+
+        }
+
+        if (flags.size () < numberOfMines) {
+
+            flags.add (position);
+
+        }
+
+    }
+    /**
+     * Creates a new game with the given difficulty.
+     * difficulty of the game
+     */
+    public void newGame (Difficulty difficulty) {
+
+        switch (difficulty) {
+
+            case EASY:
+                reset (EASY_NUMBER_OF_TILES, EASY_MINE_PROBABILITY, -1);
+                break;
+
+            case INTERMEDIATE:
+                reset (INTERMEDIATE_NUMBER_OF_TILES, INTERMEDIATE_MINE_PROBABILITY, -1);
+                break;
+
+            case EXPERT:
+                reset (EXPERT_NUMBER_OF_TILES, EXPERT_MINE_PROBABILITY, -1);
+                break;
+
+        }
+
+    }
 
    }
