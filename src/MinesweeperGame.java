@@ -226,7 +226,7 @@ public class MinesweeperGame {
 
     /**
      * Toggles a tile to be flagged or unflagged.
-     * of tile to flagged
+     * @param Index of tile to flagged
      */
     public void flagTile (int position) {
 
@@ -258,29 +258,6 @@ public class MinesweeperGame {
         if (flags.size () < numberOfMines) {
 
             flags.add (position);
-
-        }
-
-    }
-    /**
-     * Creates a new game with the given difficulty.
-     * difficulty of the game
-     */
-    public void newGame (Difficulty difficulty) {
-
-        switch (difficulty) {
-
-            case EASY:
-                reset (EASY_NUMBER_OF_TILES, EASY_MINE_PROBABILITY, -1);
-                break;
-
-            case INTERMEDIATE:
-                reset (INTERMEDIATE_NUMBER_OF_TILES, INTERMEDIATE_MINE_PROBABILITY, -1);
-                break;
-
-            case EXPERT:
-                reset (EXPERT_NUMBER_OF_TILES, EXPERT_MINE_PROBABILITY, -1);
-                break;
 
         }
 
