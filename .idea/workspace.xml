@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MinesweeperGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,9 @@
       <workItem from="1606416691823" duration="76000" />
       <workItem from="1606416813391" duration="36000" />
       <workItem from="1606468151117" duration="1539000" />
-      <workItem from="1606583881905" duration="711000" />
+      <workItem from="1606583881905" duration="765000" />
+      <workItem from="1606638949692" duration="65000" />
+      <workItem from="1606729674396" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="MiniProject">
       <created>1604943195459</created>
@@ -209,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606584254040</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="MiniProject">
+      <created>1606584639240</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606584639240</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,10 +238,10 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="534" y="201" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1707.929@0.0.1707.929" timestamp="1606416755920" />
-    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606584253251">
+    <state x="281" y="52" key="CommitChangelistDialog2" timestamp="1606584638570">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606584253251" />
+    <state x="281" y="52" key="CommitChangelistDialog2/0.0.1707.929@0.0.1707.929" timestamp="1606584638570" />
     <state x="634" y="207" key="FileChooserDialogImpl" timestamp="1606472756208">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -264,10 +274,10 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="355" y="110" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1606078729341" />
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1606330731760">
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2" timestamp="1606584641870">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1606330731760" />
+    <state x="250" y="217" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1606584641870" />
     <state x="445" y="86" key="new project wizard" timestamp="1606472772505">
       <screen x="0" y="0" width="1707" height="929" />
     </state>

@@ -13,9 +13,11 @@ public class Tile extends JButton {
     private MinesweeperPanel panel;
     private ImageIcon mineImage;
     private ImageIcon flagImage;
+    private ImageIcon unexImage;
 
     private static final String MINE_IMG_PATH = "D:\\ProjectMinesweeper\\src\\resources\\mine.png";
     private static final String FLAG_IMG_PATH = "D:\\ProjectMinesweeper\\src\\resources\\flag.png";
+    private static final String UNEX_IMG_PATH = "D:\\ProjectMinesweeper\\src\\resources\\tile.png";
 
     // Methods *************************************************************************
 
@@ -28,6 +30,7 @@ public class Tile extends JButton {
         setEnabled (true);
         mineImage = new ImageIcon (Toolkit.getDefaultToolkit ().getImage (MINE_IMG_PATH));
         flagImage = new ImageIcon (Toolkit.getDefaultToolkit ().getImage (FLAG_IMG_PATH));
+        unexImage = new ImageIcon (Toolkit.getDefaultToolkit ().getImage (UNEX_IMG_PATH));
 
     }
 
@@ -85,8 +88,8 @@ public class Tile extends JButton {
 
             case MinesweeperGame.UNEXPLORED:
 
-                setText ("@");
-                setIcon (null);
+                setText ("");
+                setIcon (unexImage);
                 setDisabledIcon (null);
                 break;
 
