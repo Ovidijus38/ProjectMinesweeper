@@ -1,13 +1,13 @@
 public class Minesweeper {
 
     // Methods *************************************************************************
-    //This section was created with my wife's uncle Darius Paulauskas
+    //This section 90 percent was created with my wife's uncle Darius Paulauskas
 
     private static void parseArguments (String[] args) {
 
         int numberOfTiles = 0;
         double mineProbability = -1.0;
-        long debugSeed = -1;
+        int debugSeed = -1;
         int i = 0;
 
         if (args.length != 0) {
@@ -66,7 +66,7 @@ public class Minesweeper {
 
                             try {
 
-                                debugSeed = Long.parseLong (args[++i]);
+                                debugSeed = Integer.parseInt (args[++i]);
 
                             } catch (NumberFormatException e) {
 

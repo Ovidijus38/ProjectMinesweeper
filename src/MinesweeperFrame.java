@@ -1,15 +1,13 @@
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import javax.swing.filechooser.FileNameExtensionFilter;
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.UnsupportedLookAndFeelException;
 
 public class MinesweeperFrame extends JFrame implements ActionListener {
+
+    // This part ideas from your lab - sheets and some inspiration from www.stackoverflow.com
+    // under supervision for modeling Darius Paulauskas
 
     // Variables ***********************************************************************
     private MinesweeperGame game;
@@ -23,16 +21,16 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
 
     private JFileChooser fileBrowser;
 
-    private static final String NEW_ACTION = "new";
-    private static final String SAVE_ACTION = "save";
-    private static final String LOAD_ACTION = "load";
-    private static final String QUIT_ACTION = "quit";
+    private static final String NEW_ACTION = "New";
+    private static final String SAVE_ACTION = "Save";
+    private static final String LOAD_ACTION = "Load";
+    private static final String QUIT_ACTION = "Quit";
 
     // Methods *************************************************************************
 
     public MinesweeperFrame (int numberOfTiles, double mineProbability, long debugSeed) {
 
-        setTitle ("Minesweeper");
+        setTitle ("Minesweeper 2020 Mini Project");
         setSize (800, 800);
         setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
 

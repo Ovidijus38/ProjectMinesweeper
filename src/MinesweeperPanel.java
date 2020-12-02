@@ -1,20 +1,17 @@
-import java.awt.BorderLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.Graphics;
-import java.awt.GridLayout;
-import javax.swing.SwingConstants;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 
 public class MinesweeperPanel extends JPanel {
+
+    // This part ideas from your lab - sheets and some inspiration from www.stackoverflow.com
+    // under supervision for modeling Darius Paulauskas
 
     // Variables ***********************************************************************
     private MinesweeperFrame frame;
     private JPanel gridPanel;
-    private JLabel mineLable;
+    private JLabel mineLabel;
     private JLabel statusLabel;
     private int mineCount;
     private String status;
@@ -28,12 +25,12 @@ public class MinesweeperPanel extends JPanel {
         tiles = null;
         gridPanel = null;
 
-        mineLable = new JLabel ("Mines: "+ Integer.toString (mineCount));
+        mineLabel = new JLabel ("Mines: "+ Integer.toString (mineCount));
         statusLabel = new JLabel ("Careful!", SwingConstants.CENTER);
 
         setLayout (new BorderLayout ());
 
-        add (mineLable, BorderLayout.SOUTH);
+        add (mineLabel, BorderLayout.SOUTH);
         add (statusLabel, BorderLayout.NORTH);
 
         reset ();
@@ -85,7 +82,7 @@ public class MinesweeperPanel extends JPanel {
 
         super.paintComponent (g);
 
-        mineLable.setText ("Mines: "+ Integer.toString (mineCount));
+        mineLabel.setText ("Mines: "+ Integer.toString (mineCount));
         statusLabel.setText (status);
 
     }

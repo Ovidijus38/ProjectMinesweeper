@@ -1,11 +1,10 @@
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Toolkit;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
+import javax.swing.*;
+import java.awt.*;
 
 public class Tile extends JButton {
+
+    /* modeling done with help from Darius Paulauskas
+    *  ideas from Your lab sheets and www.stacoverflow.com forums*/
 
     // Variables ***********************************************************************
     private int tileIndex;
