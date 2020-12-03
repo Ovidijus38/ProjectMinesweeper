@@ -118,7 +118,7 @@ public class MinesweeperGame {
         return UNEXPLORED;
 
     }
-    /**
+    /*
      * Gets the time elapsed since the game started.
      * Returns the time elapsed since the game started in seconds.
      */
@@ -128,7 +128,7 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Gets the time elapsed since the game started to when it ended.
      * Returns the time elapsed since the game started to when it ended in seconds.
      */
@@ -138,7 +138,7 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Gets the file extension used to save games.
      * Returns FILE_EXTENSION.
      */
@@ -148,7 +148,7 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Prints the game board to the console
      */
     public void print () {
@@ -175,8 +175,8 @@ public class MinesweeperGame {
 
     }
 
-    /**
-     * Checks to see if the selected tile is a mine or not, alters gameState
+    /*
+     * Checks to see if the selected tile is a mine or not, adjust gameState
      * of tile to check
      * Returns false if not a mine, returns true otherwise
      */
@@ -225,9 +225,8 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Toggles a tile to be flagged or unflagged.
-     *
      */
     public void flagTile (int position) {
 
@@ -262,7 +261,6 @@ public class MinesweeperGame {
 
         }
 
-
     }
     public void newGame (Difficulty difficulty) {
 
@@ -284,7 +282,7 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Loads a game from the given file.
      */
     public boolean load (File saveFile) {
@@ -337,10 +335,9 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Saves a game to the given file.
-     * @param saveFile to save to.
-     * @return false if failed to save.
+     * return false if failed to save.
      */
     public boolean save (File saveFile) {
 
@@ -395,9 +392,8 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * newGame
-     *
      */
     public void reset (int numberOfTiles, double mineProbability, long debugSeed) {
 
@@ -449,7 +445,7 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Fills the game grid with a random number of mines and calculates the adjacent mines for each tile
      */
     private void propogateGameGrid () {
@@ -471,9 +467,8 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Increases the adjacent mine count of nearby tiles
-     *
      */
     private void updateAdjacent (int minePosition) {
 
@@ -528,9 +523,8 @@ public class MinesweeperGame {
 
     }
 
-    /**
-     * Explores all adjacent tiles.
-     *
+    /*
+     * Checks all adjacent tiles.
      */
     private void exploreAdjacent (int position) {
 
@@ -572,7 +566,7 @@ public class MinesweeperGame {
 
     }
 
-    /**
+    /*
      * Explores all tiles when the game is over or won.
      */
     private void revealAll () {
