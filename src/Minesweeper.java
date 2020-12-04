@@ -99,9 +99,10 @@ public class Minesweeper {
 
         new MinesweeperFrame (numberOfTiles, mineProbability, debugSeed);
     }
+
     /**
-     *
-     * @param
+     * This starts game
+     * @param args
      */
 
     public static void main (String[] args) {

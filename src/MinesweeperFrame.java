@@ -9,10 +9,7 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
     // This part ideas from your lab - sheets and some inspiration from www.stackoverflow.com
     // under supervision for modeling Darius Paulauskas
 
-    /**
-     *
-     * @param
-     */
+
 
     // Variables ***********************************************************************
     private MinesweeperGame game;
@@ -33,6 +30,12 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
 
     // Methods *************************************************************************
 
+    /**
+     *
+     * @param numberOfTiles
+     * @param mineProbability
+     * @param debugSeed
+     */
     public MinesweeperFrame (int numberOfTiles, double mineProbability, long debugSeed) {
 
         setTitle ("Minesweeper 2020 Mini Project");
@@ -53,11 +56,17 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
         setVisible (true);
     }
 
+
     public MinesweeperGame getGame () {
 
         return game;
     }
 //This modeling was done under supervision of Dariud Paulauskas
+
+    /**
+     *
+     * @param e
+     */
     public void actionPerformed (ActionEvent e) {
 
         switch (e.getActionCommand ()) {
@@ -84,6 +93,7 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
         validate ();
         repaint ();
     }
+
 
     private void loadGame () {
 

@@ -8,10 +8,6 @@ public class MinesweeperPanel extends JPanel {
     // This part ideas from your lab - sheets and some inspiration from www.stackoverflow.com
     // under supervision for modeling Darius Paulauskas
 
-    /**
-     *
-     * @param
-     */
 
     // Variables ***********************************************************************
     private MinesweeperFrame frame;
@@ -23,6 +19,11 @@ public class MinesweeperPanel extends JPanel {
     private Tile [] tiles;
 
     // Methods *************************************************************************
+
+    /**
+     *
+     * @param parent
+     */
 
     public MinesweeperPanel (MinesweeperFrame parent) {
 
@@ -83,6 +84,10 @@ public class MinesweeperPanel extends JPanel {
         repaint ();
     }
 
+    /**
+     *
+     * @param g
+     */
     public void paintComponent (Graphics g) {
 
         super.paintComponent (g);
@@ -91,6 +96,7 @@ public class MinesweeperPanel extends JPanel {
         statusLabel.setText (status);
 
     }
+
     public MinesweeperGame getGame () {
 
         return frame.getGame ();
@@ -98,9 +104,13 @@ public class MinesweeperPanel extends JPanel {
     }
       //Handles button presses for the game.
 
+
     private class MouseHandler extends MouseAdapter {
 
-
+        /**
+         *
+         * @param e
+         */
         public void mousePressed (MouseEvent e) {
 
             if (e.getButton () == MouseEvent.BUTTON3) {

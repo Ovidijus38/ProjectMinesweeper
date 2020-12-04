@@ -1,12 +1,15 @@
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * This is instantiable class
+ * creates object Tile and Button
+ */
+
 public class Tile extends JButton {
 
     /* modeling done with help from Darius Paulauskas
     *  ideas from Your lab sheets and www.stacoverflow.com forums*/
-
-
 
     // Variables ***********************************************************************
     private int tileIndex;
@@ -20,10 +23,14 @@ public class Tile extends JButton {
     private static final String FLAG_IMG_PATH = "src\\resources\\flag.png";
     private static final String UNEX_IMG_PATH = "src\\resources\\tile.png";
 
-    // Methods *************************************************************************
+    // Methods ************************************************************************
 
-
-
+    /**
+     * This two argument constructor creates Tile and puts images icons
+     *
+     * @param tileIndex
+     * @param p
+     */
     public Tile (int tileIndex, MinesweeperPanel p) {
 
         super ("");
@@ -37,6 +44,10 @@ public class Tile extends JButton {
 
     }
 
+    /**
+     * This method get a Tile index
+     * @return
+     */
 
     public int getTileIndex () {
 
@@ -44,6 +55,12 @@ public class Tile extends JButton {
 
     }
 // This partialy was done with help from Darius Paulauskas
+
+    /**
+     * This method makes panel with items
+     * @param g
+     */
+
     public void paintComponent (Graphics g) {
 
         super.paintComponent (g);

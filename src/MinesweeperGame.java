@@ -10,6 +10,10 @@ import java.util.Random;
 
 //Modeling was done with help of Darius Paulauskas
 
+/**
+ * This part does all main game process
+ */
+
 public class MinesweeperGame {
 
     // Variables ***********************************************************************
@@ -49,11 +53,19 @@ public class MinesweeperGame {
 
     // Methods *************************************************************************
 
+    /**
+     * This is three argument constructor
+     * @param numberOfTiles
+     * @param mineProbability
+     * @param debugSeed
+     */
+
     public MinesweeperGame (int numberOfTiles, double mineProbability, long debugSeed) {
 
         reset (numberOfTiles, mineProbability, debugSeed);
 
     }
+
 
     public GameState getGameState () {
 
@@ -85,11 +97,18 @@ public class MinesweeperGame {
 
     }
 
+
     public int getEstimatedNumberOfMines () {
 
         return numberOfMines - flags.size ();
 
     }
+
+    /**
+     *
+     * @param position
+     * @return
+     */
 
     public int getStateOf (int position) {
 
@@ -124,6 +143,7 @@ public class MinesweeperGame {
      * Gets the time elapsed since the game started.
      * Returns the time elapsed since the game started in seconds.
      */
+
     public float getGameTime () {
 
         return (System.currentTimeMillis () - startTime) / 1000.0f;
@@ -133,7 +153,9 @@ public class MinesweeperGame {
     /*
      * Gets the time elapsed since the game started to when it ended.
      * Returns the time elapsed since the game started to when it ended in seconds.
+     *
      */
+
     public float getFinalTime () {
 
         return (stopTime - startTime) / 1000.0f;
@@ -182,6 +204,12 @@ public class MinesweeperGame {
      * of tile to check
      * Returns false if not a mine, returns true otherwise
      */
+
+    /**
+     *
+     * @param position
+     * @return
+     */
     public boolean exploreTile (int position) {
 
         // Is the position given invalid?
@@ -226,13 +254,14 @@ public class MinesweeperGame {
         return true;
 
     }
-    /**
-     *
-     * @return
-     */
 
     /*
      * Toggles a tile to be flagged or unflagged.
+     */
+
+    /**
+     *
+     * @param position
      */
     public void flagTile (int position) {
 
@@ -268,6 +297,11 @@ public class MinesweeperGame {
         }
 
     }
+
+    /**
+     * Sets games difficulty
+     * @param difficulty
+     */
     public void newGame (Difficulty difficulty) {
 
         switch (difficulty) {
@@ -290,6 +324,12 @@ public class MinesweeperGame {
 
     /*
      * Loads a game from the given file.
+     */
+
+    /**
+     *
+     * @param saveFile
+     * @return
      */
     public boolean load (File saveFile) {
 
@@ -345,6 +385,12 @@ public class MinesweeperGame {
     /*
      * Saves a game to the given file.
      * return false if failed to save.
+     */
+
+    /**
+     *
+     * @param saveFile
+     * @return
      */
     public boolean save (File saveFile) {
 
@@ -404,6 +450,13 @@ public class MinesweeperGame {
     /*
      * newGame
      */
+
+    /**
+     *
+     * @param numberOfTiles
+     * @param mineProbability
+     * @param debugSeed
+     */
     public void reset (int numberOfTiles, double mineProbability, long debugSeed) {
 
         numberOfMines = 0;
@@ -457,6 +510,7 @@ public class MinesweeperGame {
     /*
      * Fills the game grid with a random number of mines and calculates the adjacent mines for each tile
      */
+
     private void propogateGameGrid () {
 
         Random rand = new Random (randomSeed);
@@ -478,6 +532,11 @@ public class MinesweeperGame {
 
     /*
      * Increases the adjacent mine count of nearby tiles
+     */
+
+    /**
+     *
+     * @param minePosition
      */
     private void updateAdjacent (int minePosition) {
 
@@ -519,7 +578,11 @@ public class MinesweeperGame {
 
     }
 
-
+    /**
+     *
+     * @param obj
+     * @return
+     */
     private ArrayList<Integer> castObjectToArrayList (Object obj) {
 
         if (obj instanceof ArrayList) {
@@ -534,6 +597,11 @@ public class MinesweeperGame {
 
     /*
      * Checks all adjacent tiles.
+     */
+
+    /**
+     *
+     * @param position
      */
     private void exploreAdjacent (int position) {
 
@@ -578,6 +646,7 @@ public class MinesweeperGame {
     /*
      * Explores all tiles when the game is over or won.
      */
+
     private void revealAll () {
 
         for (int i = 0; i < explored.length; i++) {
