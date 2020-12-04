@@ -8,6 +8,11 @@ public class MinesweeperPanel extends JPanel {
     // This part ideas from your lab - sheets and some inspiration from www.stackoverflow.com
     // under supervision for modeling Darius Paulauskas
 
+    /**
+     *
+     * @param
+     */
+
     // Variables ***********************************************************************
     private MinesweeperFrame frame;
     private JPanel gridPanel;

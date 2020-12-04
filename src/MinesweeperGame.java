@@ -45,6 +45,8 @@ public class MinesweeperGame {
 
     private static final String FILE_EXTENSION = "msg";
 
+    //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
     // Methods *************************************************************************
 
     public MinesweeperGame (int numberOfTiles, double mineProbability, long debugSeed) {
@@ -224,6 +226,10 @@ public class MinesweeperGame {
         return true;
 
     }
+    /**
+     *
+     * @return
+     */
 
     /*
      * Toggles a tile to be flagged or unflagged.
@@ -334,6 +340,7 @@ public class MinesweeperGame {
         return false;
 
     }
+//=====================================================//
 
     /*
      * Saves a game to the given file.
@@ -391,6 +398,8 @@ public class MinesweeperGame {
         return false;
 
     }
+
+    //===============================================//
 
     /*
      * newGame

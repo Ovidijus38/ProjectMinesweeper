@@ -6,6 +6,8 @@ public class Tile extends JButton {
     /* modeling done with help from Darius Paulauskas
     *  ideas from Your lab sheets and www.stacoverflow.com forums*/
 
+
+
     // Variables ***********************************************************************
     private int tileIndex;
     private int state;
@@ -20,6 +22,8 @@ public class Tile extends JButton {
 
     // Methods *************************************************************************
 
+
+
     public Tile (int tileIndex, MinesweeperPanel p) {
 
         super ("");
@@ -33,12 +37,13 @@ public class Tile extends JButton {
 
     }
 
+
     public int getTileIndex () {
 
         return tileIndex;
 
     }
-
+// This partialy was done with help from Darius Paulauskas
     public void paintComponent (Graphics g) {
 
         super.paintComponent (g);
@@ -70,7 +75,7 @@ public class Tile extends JButton {
 
                 }
                 break;
-
+//==========================================//
             case MinesweeperGame.MINE:
 
                 setEnabled (false);

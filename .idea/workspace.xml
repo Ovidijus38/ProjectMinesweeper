@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fc5b58-5572-43ee-8136-5056cc959808" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minesweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinesweeperFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MinesweeperGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinesweeperPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinesweeperPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
@@ -117,7 +123,11 @@
       <workItem from="1606899456162" duration="621000" />
       <workItem from="1606914102109" duration="633000" />
       <workItem from="1607012107099" duration="11000" />
-      <workItem from="1607012129539" duration="746000" />
+      <workItem from="1607012129539" duration="1363000" />
+      <workItem from="1607013993068" duration="12000" />
+      <workItem from="1607014016753" duration="213000" />
+      <workItem from="1607026453257" duration="555000" />
+      <workItem from="1607072623801" duration="5306000" />
     </task>
     <task id="LOCAL-00001" summary="MiniProject">
       <created>1604943195459</created>
@@ -245,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606730194269</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="MiniProject">
+      <created>1607012890260</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607012890260</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

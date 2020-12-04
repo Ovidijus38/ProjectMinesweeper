@@ -9,6 +9,11 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
     // This part ideas from your lab - sheets and some inspiration from www.stackoverflow.com
     // under supervision for modeling Darius Paulauskas
 
+    /**
+     *
+     * @param
+     */
+
     // Variables ***********************************************************************
     private MinesweeperGame game;
     private MinesweeperPanel panel;
@@ -52,7 +57,7 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
 
         return game;
     }
-
+//This modeling was done under supervision of Dariud Paulauskas
     public void actionPerformed (ActionEvent e) {
 
         switch (e.getActionCommand ()) {
