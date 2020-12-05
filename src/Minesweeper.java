@@ -2,6 +2,7 @@ public class Minesweeper {
 
     // Methods *************************************************************************
     //This section 90 percent was created with my wife's uncle Darius Paulauskas
+    // from line 10 to line 108 code done fully by Darius
 
     private static void parseArguments (String[] args) {
 

@@ -61,6 +61,7 @@ public class MinesweeperPanel extends JPanel {
             remove (gridPanel);
 
         }
+//from line 65 to 84 partially logic was help from Darius
 
         numberOfTiles = (int)Math.pow (frame.getGame ().getSquareLength (), 2.0);
         gridPanel = new JPanel (new GridLayout (frame.getGame ().getSquareLength (), frame.getGame ().getSquareLength ()));
@@ -112,6 +113,8 @@ public class MinesweeperPanel extends JPanel {
          * @param e
          */
         public void mousePressed (MouseEvent e) {
+
+            //this code line from 119 to 146 info from www.stackoverflow.com and opinion from Darius
 
             if (e.getButton () == MouseEvent.BUTTON3) {
 

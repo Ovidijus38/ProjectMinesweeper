@@ -28,11 +28,13 @@ public class MinesweeperGame {
     private long startTime;
     private long stopTime;
     
+// public enum was told to use by Darius
 
     public enum GameState { PLAYING, GAME_OVER, WON }
     public enum Difficulty { EASY, INTERMEDIATE, EXPERT }
     private GameState gameState;
 
+// line 38 to line 51 those number was told how to do by Darius
 
     public static final int MINE = -1;
     public static final int FLAGGED = -2;
@@ -62,6 +64,7 @@ public class MinesweeperGame {
 
     public MinesweeperGame (int numberOfTiles, double mineProbability, long debugSeed) {
 
+//reset was idea of Darius
         reset (numberOfTiles, mineProbability, debugSeed);
 
     }
@@ -111,6 +114,8 @@ public class MinesweeperGame {
      */
 
     public int getStateOf (int position) {
+
+        //this part partialy was supervised by Darius
 
         // Is the position given invalid?
         if (position < 0 || position >= gameGrid.length) {
@@ -166,6 +171,7 @@ public class MinesweeperGame {
      * Gets the file extension used to save games.
      * Returns FILE_EXTENSION.
      */
+    // this logic by Darius
     public static String getFileExtension () {
 
         return FILE_EXTENSION;
@@ -210,6 +216,8 @@ public class MinesweeperGame {
      * @param position
      * @return
      */
+
+    // from line 224 to 330 partially advice by Darius
     public boolean exploreTile (int position) {
 
         // Is the position given invalid?
@@ -302,6 +310,8 @@ public class MinesweeperGame {
      * Sets games difficulty
      * @param difficulty
      */
+
+    //this difficulty section modeled by Darius
     public void newGame (Difficulty difficulty) {
 
         switch (difficulty) {
@@ -457,6 +467,7 @@ public class MinesweeperGame {
      * @param mineProbability
      * @param debugSeed
      */
+    //this part from line  471 to 667 was modeled by Darius and logic , i was corrected what to code
     public void reset (int numberOfTiles, double mineProbability, long debugSeed) {
 
         numberOfMines = 0;

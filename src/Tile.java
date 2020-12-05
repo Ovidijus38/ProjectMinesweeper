@@ -33,6 +33,8 @@ public class Tile extends JButton {
      */
     public Tile (int tileIndex, MinesweeperPanel p) {
 
+        //In part 90% is may code Darius advise me how to aproach that
+
         super ("");
         this.tileIndex = tileIndex;
         this.panel = p;
@@ -55,6 +57,7 @@ public class Tile extends JButton {
 
     }
 // This partialy was done with help from Darius Paulauskas
+    // from line 73 to 98 Darius told me what i have to do he didnt code himself but he was telling me how to do
 
     /**
      * This method makes panel with items

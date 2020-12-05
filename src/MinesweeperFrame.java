@@ -69,6 +69,8 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
      */
     public void actionPerformed (ActionEvent e) {
 
+        // this switch idea from www.stackoverflow.com and correction from Darius
+
         switch (e.getActionCommand ()) {
 
             case NEW_ACTION:
@@ -95,6 +97,7 @@ public class MinesweeperFrame extends JFrame implements ActionListener {
     }
 
 
+    // line 103 to 176 advice from Darius and info from Java book
     private void loadGame () {
 
         int fileChooserReturnValue = fileBrowser.showOpenDialog (this);
